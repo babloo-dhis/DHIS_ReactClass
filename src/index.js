@@ -4,12 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import DayOneCom from './components/DayOne';
+import CssMethods from './components/CSS/CssMethods';
+import CssInternal from './components/CSS/CSSInternal';
+import CssExternal from './components/CSS/CssExternal';
+import CssModules from './components/CSS/CssModules';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <DayOneCom />
+    {/* <App />
+    <DayOneCom /> */}
+    <CssMethods />
+    <CssInternal />
+    <CssExternal />
+    <CssModules />
   </React.StrictMode>
 );
 

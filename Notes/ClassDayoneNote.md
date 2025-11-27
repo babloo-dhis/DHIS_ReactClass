@@ -1,41 +1,41 @@
 # ClassDayoneNote ReactJS
 
-## Wrong 
+### Wrong 
 <div class="class_name"></div>
 
-## Correct 
+### Correct 
 <div className="class_name"></div>
 
-## Wrong
+### Wrong
 
 return (
     <h1>Hello<h1>
 )
 
-## Correct
+### Correct
 return (
     <div>
     <h1>Hello<h1>
     </div>
 )
 
-## Use of Fragment
+### Use of Fragment
 return (
     <>
     <h1>Hello<h1>
     </>
 )
 
-## JSX Expressions use {}
+### JSX Expressions use {}
 
 <h1> Total Sum Of Numbers {23+34+43+43}<h2>
 
-## Self-Closing tags
+### Self-Closing tags
 
 <img src="logo.png"/>
 <br/>
 
-## JSX Usage
+### JSX Usage
 
 
 function Subham() {
@@ -52,7 +52,7 @@ function Subham() {
     );
 }
 
-## Class Componenets (Old Style)
+### Class Componenets (Old Style)
 
 - A Class Componenet uses ES6 and Must Extend React.Componenet
 
@@ -66,7 +66,7 @@ class Welcome extends React.Component {
 export default Welcome;
 
 
-## Functional Componenet with function indide
+### Functional Componenet with function indide
 
 function Message(){
     const showMessage=()=>"this is Message"
@@ -74,7 +74,7 @@ function Message(){
 }
 
 
-## Class Componenet with function
+### Class Componenet with function
 
 class Info extends React.Component {
     showData(){
